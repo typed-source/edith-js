@@ -1,0 +1,22 @@
+{
+  "name": "edith-js",
+  "version": "0.0.1",
+  "description": "small js framework",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typed-source/edith-js.git"
+  },
+  "keywords": [
+    "edith-js"
+  ],
+  "author": "Maik Tizziani",
+  "license": "SEE LICENCE IN LICENCE.md",
+  "bugs": {
+    "url": "https://github.com/typed-source/edith-js/issues"
+  },
+  "homepage": "https://github.com/typed-source/edith-js#readme"
+}
