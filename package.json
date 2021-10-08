@@ -1,5 +1,5 @@
 {
-  "name": "edith-js",
+  "name": "edith-js-free",
   "version": "0.0.1",
   "description": "small js framework",
   "main": "main.js",
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/typed-source/edith-js.git"
   },
   "keywords": [
-    "edith-js"
+    "edith-js-free"
   ],
   "author": "Maik Tizziani",
   "license": "SEE LICENCE IN LICENCE.md",
