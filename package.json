@@ -1,6 +1,6 @@
 {
   "name": "edith-js-free",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "small js framework",
   "main": "main.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "keywords": [
     "edith-js-free"
   ],
-  "author": "Maik Tizziani",
+  "author": "Maik Tizziani - npm: mtizziani - git-hub: typed-source",
   "license": "SEE LICENCE IN LICENCE",
   "bugs": {
     "url": "https://github.com/typed-source/edith-js/issues"

@@ -1,6 +1,37 @@
-const version = '0.0.2';
-const author = 'mtizziani';
+import * as elements from "./src/dom";
 
-let info = {version: version, author: author};
+const version = '0.0.3';
+const author = 'npm: mtizziani (git-hub: typed-source)';
 
-export const edith = {info};
+/**
+ * general framework information
+ * @type {{author: string, version: string}}
+ */
+export const info = {
+    version: version,
+    author: author
+};
+
+/**
+ *
+ * @type {{input: {list: {byName: ((function(*): NodeListOf<Element>)|*)}, element: {byName: ((function(string): Element)|*)}}}}
+ */
+export const dom = {
+    input: {
+        element: {
+            byName: elements.inputByName,
+        },
+        list: {
+            byName: elements.inputListByName,
+            byType: elements.inputListByType,
+        },
+        radio: {
+            checked: {
+                byName: elements.radioCheckedByName
+            },
+            list: {
+                byName: elements.radioGroupByName
+            }
+        }
+    }
+};
