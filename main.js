@@ -3,4 +3,4 @@ const author = 'mtizziani';
 
 let info = {version: version, author: author};
 
-export {info};
+export const edith = {info};
