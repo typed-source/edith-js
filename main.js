@@ -2,7 +2,7 @@ import * as elements from "./src/dom";
 import * as bankHelper from "./src/banking";
 import * as stringHelper from "./src/string";
 
-const version = '0.0.5';
+const version = '0.0.6';
 const author = 'npm: mtizziani (git-hub: typed-source)';
 
 /**
