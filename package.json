@@ -1,6 +1,6 @@
 {
   "name": "edith-js-free",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "small js framework",
   "main": "main.js",
   "scripts": {

@@ -1,6 +1,7 @@
 import * as elements from "./src/dom";
+import * as bankHelper from "./src/banking";
 
-const version = '0.0.3';
+const version = '0.0.4';
 const author = 'npm: mtizziani (git-hub: typed-source)';
 
 /**
@@ -35,3 +36,10 @@ export const dom = {
         }
     }
 };
+
+export const banking = {
+    check: {
+        isIban: bankHelper.isIbanCode,
+        isBic: bankHelper.isBicCode
+    }
+}
