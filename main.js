@@ -1,7 +1,8 @@
 import * as elements from "./src/dom";
 import * as bankHelper from "./src/banking";
+import * as stringHelper from "./src/string";
 
-const version = '0.0.4';
+const version = '0.0.5';
 const author = 'npm: mtizziani (git-hub: typed-source)';
 
 /**
@@ -41,5 +42,15 @@ export const banking = {
     check: {
         isIban: bankHelper.isIbanCode,
         isBic: bankHelper.isBicCode
+    }
+}
+
+export const string = {
+    replace: {
+        doubleWhitespacesWithSpace: stringHelper.replaceAllDoubleWhitespacesWithSpace
+    },
+    remove: {
+        whitespaces: stringHelper.removeAllWhitespaces,
+        dashes: stringHelper.removeAllDashes
     }
 }
